@@ -97,7 +97,7 @@ function escapeHtml(value) {
 // 6. 좌표 복사
 // =====================================================
 
-window.copyCoords = async function(x, y, z) {
+window.copyCoords = async function(x, z, y) {
     const text = `${x} ${z} ${y}`;
 
     try {
